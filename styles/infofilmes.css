@@ -1,0 +1,66 @@
+body{
+    font-family: "Merriweather", serif;
+}
+.c-1{
+    width: 50%;
+    margin: 5% auto;
+    background: rgb(219, 218, 208);
+    text-align: center;
+    border-radius: 10px;
+}
+.c-1 h1{
+    font-weight: bolder;
+    padding-top: 3%;
+}
+.c-1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.c-1 p{
+    padding: 0 5px;
+    margin-bottom: 0%;
+}
+.c-1 span{
+    border-radius: 10px;
+    color: rgb(248, 249, 250);
+    margin: 2px auto;
+    background: rgb(85, 95, 141);
+    width: 20%;
+    display: block;
+}
+@media screen and (max-width: 891px){
+    .c-1{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 815px){
+    .c-1 span{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 635px){
+    .c-1 span{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 529px){
+    .c-1 h1{
+        font-size: 1.2rem;
+    }
+    .c-1 h3{
+        font-size: 1.2rem;
+    }
+    .c-1 p{
+        font-size: .8rem;
+    }
+}
+.c-1 .btn-informacoes{
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    background-color: rgb(216, 158, 51);
+    color: #f8f9fa;
+}

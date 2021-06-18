@@ -41,6 +41,7 @@ function mostrarPesquisa(dados) {
         <h1 class="lancamentos">LANÇAMENTOS</h1>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <img scr="../images/shang_chi.jpeg" alt="Poster shangChi" />
                             </div>
 
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6">

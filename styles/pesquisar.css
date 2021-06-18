@@ -150,7 +150,7 @@ body{
 .teste{
     margin-top: 30vh;
     position: relative;
-    width: 100%px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,6 @@ body{
     left: 5px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-
 }
 .teste .card .imgBx img{
     height: 100%;
@@ -204,3 +203,18 @@ body{
     transition-delay: 0.3s;
 }
 
+@media screen and (max-width: 380px) {
+    .teste .card .imgBx img{
+        width: 100%;
+    }
+    .teste{
+        width: 83%;
+    }
+    .teste .card .imgBx{
+        width: 95%;
+
+    }
+    .teste .card .content p{
+        font-size: 10px;
+    }
+}

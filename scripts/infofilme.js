@@ -27,7 +27,7 @@ function exibeInfoFilme(){
         <p><strong>Produzido por:</strong> "${dado.production_companies[0].name}"</p>
         <p><strong>Avaliação:</strong> ${dado.vote_average} -> TheMovieDB</p>
         <span>${dado.genres[0].name}</span>
-        <a href="${dado.homepage}" target="_blank"><button class="btn-informacoes">Mais informações</button></a>
+        <a href="https://www.themoviedb.org/movie/${dado.id}"" target="_blank"><button class="btn-informacoes">Mais informações</button></a>
     </div>
     `
 }
